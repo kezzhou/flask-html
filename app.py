@@ -28,9 +28,9 @@ def homepage():
 def theleech():
     return render_template('theleech.html')
 
-@app.route('/songsoftheweek')
-def songsoftheweek():
-    return render_template('songsoftheweek.html')
+@app.route('/songoftheday')
+def songoftheday():
+    return render_template('songoftheday.html')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)
